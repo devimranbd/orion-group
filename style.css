@@ -1,0 +1,183 @@
+.header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 17%;
+}
+
+.main-menu {
+    width: 82%;
+}
+
+.main-logo img {
+    max-width: 100%;
+}
+
+.main-menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    padding: 20px 10px 0px 37px;
+    color: black;
+}.header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 17%;
+}
+
+.main-menu {
+    width: 82%;
+}
+
+.main-logo img {
+    max-width: 100%;
+}
+
+.main-menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    padding: 20px 10px 20px 37px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.main-menu nav ul li a:hover {
+    color: white;
+    background: darkblue;
+}.fotter {
+    width: 1200px;
+    margin: auto;
+    background: bisque;
+}
+
+.fotter-box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.fotter-box-1 {
+    width: 45%;
+}
+
+.fotter-box-2 {
+    width: 24%;
+}
+
+.fotter-box-3 {
+    width: 22%;
+}
+
+.fotter-contact h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 13px;
+}h1 {}
+
+.fotter-orion h1 {
+    font-size: 26px;
+}
+
+.fotter-orion h2 {
+    font-size: 24px;
+}
+
+.quick-links h1 {
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding:  0px 0px 13px 0px;
+    /* display: block; */
+}
+
+.about-orin h1 a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-orin h2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-orin h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.about-orin {
+    width: 100%;
+}
+
+.fotter-orion h3 {
+    font-size: 24px;
+}
+
+.fotter-orion h4 {
+    font-size: 24px;
+}.follow h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 13px;
+}
+
+.follow-box h1 {
+    font-size: 24px;
+    color: black;
+}.fotter-border {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.fotter-border h1 {
+    font-size: 20px;
+    color: black;
+    /* border-top: 1px solid white; */
+    /* padding: 20px 0px 20px; */
+}li {}
+
+.about-orin ul {
+    list-style: none;
+    /* margin-top: 0; */
+    padding-left: 0;
+}
+
+.about-orin ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    padding: 4px 0px;
+    display: block;
+}
