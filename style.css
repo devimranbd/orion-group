@@ -1,4 +1,8 @@
 .header {
+    width: 100%;
+
+}
+.header-ful-width {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -180,4 +184,34 @@
     font-size: 21px;
     padding: 4px 0px;
     display: block;
+}.taking {
+    width: 1200px;
+    margin: auto;
+    background: azure;
 }
+
+.taking-photo-1 {
+    width: 24%;
+    /* display: flex; */
+}
+
+.taking-photo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taking-text {
+    width: 100%;
+    align-items: center;
+}
+
+.taking-text h1 {
+    font-size: 29px;
+}
+
+.taking-photo-1 img {
+    max-width: 100%;
+}
+
+.taking-text {}
