@@ -2,6 +2,7 @@
     width: 100%;
 
 }
+
 .header-ful-width {
     width: 1200px;
     margin: auto;
@@ -32,7 +33,9 @@
     display: block;
     padding: 20px 10px 0px 37px;
     color: black;
-}.header {
+}
+
+.header {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -68,7 +71,9 @@
 .main-menu nav ul li a:hover {
     color: white;
     background: darkblue;
-}.fotter {
+}
+
+.fotter {
     width: 1200px;
     margin: auto;
     background: bisque;
@@ -99,7 +104,9 @@
     text-transform: uppercase;
     border-bottom: 2px solid white;
     padding: 0px 0px 13px;
-}h1 {}
+}
+
+h1 {}
 
 .fotter-orion h1 {
     font-size: 26px;
@@ -114,7 +121,7 @@
     color: black;
     text-transform: uppercase;
     border-bottom: 2px solid white;
-    padding:  0px 0px 13px 0px;
+    padding: 0px 0px 13px 0px;
     /* display: block; */
 }
 
@@ -148,7 +155,9 @@
 
 .fotter-orion h4 {
     font-size: 24px;
-}.follow h1 {
+}
+
+.follow h1 {
     font-size: 30px;
     text-transform: uppercase;
     color: black;
@@ -159,7 +168,9 @@
 .follow-box h1 {
     font-size: 24px;
     color: black;
-}.fotter-border {
+}
+
+.fotter-border {
     width: 80%;
     margin: auto;
     padding-bottom: 20px;
@@ -170,7 +181,9 @@
     color: black;
     /* border-top: 1px solid white; */
     /* padding: 20px 0px 20px; */
-}li {}
+}
+
+li {}
 
 .about-orin ul {
     list-style: none;
@@ -184,10 +197,13 @@
     font-size: 21px;
     padding: 4px 0px;
     display: block;
-}.taking {
+}
+
+.taking {
     width: 1200px;
     margin: auto;
-    background: azure;
+    background: aquamarine;
+    margin-bottom: 51px;
 }
 
 .taking-photo-1 {
@@ -199,11 +215,18 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    gap: -34px;
+    flex-wrap: wrap;
 }
 
 .taking-text {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
+    margin: auto;
+    /* padding: 30px 0px; */
+    /* background: white; */
+    display: flex;
+    justify-content: center;
 }
 
 .taking-text h1 {
@@ -212,6 +235,246 @@
 
 .taking-photo-1 img {
     max-width: 100%;
+    border-radius: 20%;
 }
 
-.taking-text {}
+.corporate {
+    margin: auto;
+    WIDTH: 1200PX;
+    background: blue;
+}
+
+.corporate-box-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: antiquewhite;
+}
+
+.corporate-box-2 {
+    width: 100%;
+}
+
+.corporate-text {
+    width: 85%;
+}
+
+.corporate-all {
+    width: 12%;
+}
+
+.corporate-text h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.corporate-all a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 21px;
+    display: block;
+}
+
+.corporate-photo-1 {
+    width: 32%;
+}
+
+.corporate-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.corporate-photo-1 img {
+    max-width: 100%;
+    border-radius: 12%;
+}
+
+.corporate-photo-1 h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.corporate-photo-1 h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.news {
+    width: 1200px;
+    margin: auto;
+    /* justify-content: space-between; */
+    /* display: flex; */
+    background: blueviolet;
+}
+
+.news-box-0-1 {
+    width: 86%;
+}
+
+.news-box-0-2 {
+    width: 10%;
+}
+
+.news-box-o {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box-0-1 h1 {
+    font-size: 24px;
+    margin-left: 23px;
+    text-transform: uppercase;
+}
+
+.news-box-0-2 h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.news-2 {
+    /* display: flex; */
+    width: 60%;
+}
+
+.news-2-1 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 0px; */
+    background: cadetblue;
+}
+
+.news-1 {
+    width: 35%;
+}
+
+.news-box {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+}
+
+.news-1 h1 img {
+    max-width: 100%;
+}
+
+.news-2-1-photo img {
+    max-width: 100%;
+}
+
+.news-1 h2 {
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.news-1 h3 {
+    font-size: 23px;
+}
+
+.news-1 h4 {
+    font-size: 19px;
+}
+
+
+
+.news-2-1-photo {
+    width: 32%;
+}
+
+.news-2-1-text {
+    width: 65%;
+}
+
+.news-2-1-photo img {
+    max-width: 100%;
+}
+
+.news-2-1-text h1 {
+    font-size: 16px;
+}
+
+.news-2-1-text h2 {
+    font-size: 13px;
+}
+
+.news-2-1-text h3 {
+    font-size: 13px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.about-orion-box {
+    width: 1200px;
+    margin: auto;
+}
+
+.about-orion {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    background: antiquewhite;
+}
+
+.about-orion-1 h1 {
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}.about-orion-2 h1 {
+    font-size: 22px;
+    color: black;
+}
+
+.about-orion-2 h2 {
+    font-size: 21px;
+    color: black;
+}
+
+.about-orion-2 h3 {
+    font-size: 22px;
+}
+.header {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-full-withe {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 20%;
+}
+
+.main-menu {
+    width: 78%;
+}
+
+
+
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    /* display: block; */
+    padding: 8px;
+    color: black;
+    font-size: 16px;
+}
