@@ -478,3 +478,91 @@ img {
     color: black;
     font-size: 16px;
 }
+.salaider-photo {
+    width: 1200px;
+    margin: auto;
+    border-bottom: 9px solid black;
+    margin-bottom: 31px;
+}
+
+.salaider-photo img {
+    margin-bottom: 35px;
+    max-width: 100%;
+}.taking-our-nation {
+    margin: auto;
+    width: 1200px;
+    background: aliceblue;
+}
+
+.taking-our-nation-1 {width: 100%;padding: 0px 300px;display: block;}
+
+.taking-our-nation-2 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px 15px;
+    margin: auto;
+}
+
+.photo-box {
+    width: 24%;
+}
+
+.photo-box img {
+    border-radius: 20%;
+}.welcome-to-orion-pharma {
+    width: 1200px;
+    margin: auto;
+    background: border-box;
+}
+
+.welcome-to-orion-pharma-text {
+    width: 40%;
+    margin: auto;
+}
+
+.welcome-to-orion-pharma-text-1 {
+    width: 95%;
+    margin: auto;
+}
+
+.welcome-to-orion-pharma-text h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+
+.welcome-to-orion-pharma-text-1 p {
+    font-size: 19px;
+    color: black;
+}.corporate-social-responsibilities {
+    width: 1200px;
+    margin: auto;
+}
+
+.corporate-social-responsibilities-1 {
+    width: 95%;
+    margin: auto;
+}
+
+.corporate-social-responsibilities-2 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.corporate-social-responsibilities-photo {
+    width: 32%;
+}
+
+.corporate-social-responsibilities-photo h1 {
+    font-size: 20px;
+    color: black;
+}
+
+.corporate-social-responsibilities-photo img {
+    border-radius: 20px;
+}
